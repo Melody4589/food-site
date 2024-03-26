@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.box {
+    padding: 50px;
+}
+.boxy {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 1px 4px 8px silver;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999999;
+}
+.yo {
+    /* background-color: yellow; */
+    width: 70%;
+}
+.jo {
+    /* background-color: red; */
+    width: 30%;
+    text-align: right;
+}
+.jo ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.jo ul li {
+    display: inline-block;
+    
+}
+.jo ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+}
+.jo ul li a:hover {
+    background-color: rgb(218, 213, 213);
+}
+.banner {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.banner-image {
+    background-image: url(hamburger.jpg);
+    height: 450px;
+}
+.banner-text {
+    /* background-color: blueviolet; */
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+}
+.banner-text h2 {
+    font-weight: normal;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.ro {
+    display: flex;
+}
+.yellow-box {
+    /* background-color: yellow; */
+    width: 50%;
+    text-align: right;
+}
+.yellow-box img {
+    height: 500px;
+}
+.brown-box {
+    /* background-color: brown; */
+    width: 50%;
+    padding-right: 150px;
+}
+.brown-box h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 1.8px;
+    font-size: 40px;
+    font-weight: normal;
+}
+.brown-box h4 {
+    text-align: center;
+    letter-spacing: 1.8px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: normal;
+}
+.brown-box p {
+    line-height: 1.4;
+}
+.brown-box .second-p {
+    color: rgb(139, 112, 112);
+}
+.row {
+    display: flex;
+}
+.bottom-space {
+    margin-bottom: 50px;
+}
+.red-box {
+    /* background-color: red; */
+    width: 50%;
+    padding-left: 150px;
+}
+.red-box h2 {
+    text-align: center;
+}
+.red-box p {
+    color: rgb(105, 103, 103);
+}
+.green-box {
+    /* background-color: green; */
+    width: 50%;
+}
+.blue-box {
+    background-color: blue;
+}
+.coll {
+    margin-top: 14%;
+    width: 80%;
+    margin: auto;
+}
+.first-p {
+    width: 100%;
+}
+.second-p {
+    color: rgb(115, 115, 237);
+}
+.my-hr {
+    width: 70%;
+    border: 1px solid rgb(234, 233, 233);
+}
+.coll input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(168, 162, 162);
+}
+.coll .button-input {
+    width: auto;
+    padding: 10px 20px;
+    border: none;
+}
+.coll .button-input:hover {
+    background-color: rgb(203, 181, 181);
+}
+
+@media (max-width: 500px) {
+    .boxy{
+        /* background-color: red; */
+    }
+    .boxy .jo {
+        display: none;
+    }
+    .ro {
+        display: block;
+    }
+    .ro .yellow-box {
+        display: none;
+    }
+    .ro .brown-box {
+        width: 100%;
+        padding: 20px;
+    }
+    .row {
+        display: block;
+    }
+    .row .red-box {
+        width: 100%;
+        padding: 20px;
+    }
+    .row .green-box {
+        width: 100%;
+    }
+    .row .green-box img {
+        width: 100%;
+    }
+    
+}
+
+
